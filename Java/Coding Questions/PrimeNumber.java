@@ -50,7 +50,7 @@ public class PrimeNumber
 		for(i=0; i<j; i++)
 		{
 			System.out.print(divisibleBy[i]);
-			if(i<j-1) { System.out.print(", "); }
+			if(i<j-1){ System.out.print(", ");}
 		}
 		System.out.print(" in the range 1 to "+num);
 

@@ -7,10 +7,10 @@ public class PrimeNumber
 	public static void main(String args[])
 	{
 
-		int num=0, i=1, j=0, count=0, flag=1;
+		int num=0, i=1, j=0, count=0;
 		Scanner input = new Scanner(System.in);
 
-		while(flag==1)
+		while(true)
 		{
 			System.out.print("Enter a number:");
 			num = input.nextInt();
@@ -20,19 +20,18 @@ public class PrimeNumber
 			}
 			else
 			{
-				flag++;
+				break;
 			}
 		}
 
-		int divisibleBy[] = new int[num];
+		int[] divisibleBy = new int[num];
 		for(i=1; i<=num; i++)
 		{
 
 			if(num%i==0)
 			{
+				divisibleBy[j++]=i;
 				count++;
-				divisibleBy[j]=i;
-				j++;
 			}		
 
 		}
@@ -50,9 +49,10 @@ public class PrimeNumber
 
 		for(i=0; i<j; i++)
 		{
-			System.out.print(divisibleBy[i]+", ");
+			System.out.print(divisibleBy[i]);
+			if(i<j-1) { System.out.print(", "); }
 		}
-		System.out.print("in the range 1 to "+num);
+		System.out.print(" in the range 1 to "+num);
 
 	}
 

@@ -7,7 +7,7 @@ public class Factorial
 	public static void main(String args[])
 	{
 		int i=1, num=0, fact=1;
-		String a = "";
+		String a = "(";
 		Scanner input = new Scanner(System.in);
 
 		while(true)
@@ -22,11 +22,11 @@ public class Factorial
 		{
 			fact*=i;
 			if(i>1){a+=(i+"x");}
-			else{a+=i;}
+			else{a+=(i+")");}
 		}
 
 		System.out.println("Factorial of "+num+" is "+fact);
-		System.out.print(num+"! ("+ a +") is "+ fact);
+		System.out.print(num+"! "+ a +" is "+ fact);
 
 	}
 

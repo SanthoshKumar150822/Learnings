@@ -8,6 +8,7 @@ public class PrimeNumber
 	{
 
 		int num=0, i=1, j=0, count=0;
+		String a = "[";
 		Scanner input = new Scanner(System.in);
 
 		while(true)
@@ -24,13 +25,13 @@ public class PrimeNumber
 			}
 		}
 
-		int[] divisibleBy = new int[num];
 		for(i=1; i<=num; i++)
 		{
 
 			if(num%i==0)
 			{
-				divisibleBy[j++]=i;
+				if(i<num){a+=(i+", ");}
+				else{a+=(i+"]");}
 				count++;
 			}		
 
@@ -45,14 +46,7 @@ public class PrimeNumber
 			System.out.println(num+" is not a prime number.");
 		}
 
-		System.out.print(num+" is divisible by ");
-
-		for(i=0; i<j; i++)
-		{
-			System.out.print(divisibleBy[i]);
-			if(i<j-1){ System.out.print(", ");}
-		}
-		System.out.print(" in the range 1 to "+num);
+		System.out.print(num+" is divisible by "+a+" in the range 1 to "+num);
 
 	}
 

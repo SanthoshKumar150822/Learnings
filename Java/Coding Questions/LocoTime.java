@@ -9,7 +9,8 @@ class LocoTime
 	public static void main(String args[])
 	{
 
-
+		//Railway time (24-hour) format as Hr:Min:Sec, ranging from 00:00:00 to 23:59:59.
+		
 		int hr=0, min=0, sec=0;
 		Scanner input = new Scanner(System.in);
 		userInput(hr, min, sec, input);		

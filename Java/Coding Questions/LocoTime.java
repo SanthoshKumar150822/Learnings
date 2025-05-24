@@ -48,12 +48,12 @@ class LocoTime
 
 		}
 		
-		printDigitalTime(hr, min, sec);
+		printLocoMotiveTime(hr, min, sec);
 
 	}
 
 
-	public static void printDigitalTime(int hr, int min, int sec)
+	public static void printLocoMotiveTime(int hr, int min, int sec)
 	{
 
 

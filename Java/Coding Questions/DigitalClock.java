@@ -58,19 +58,49 @@ class DigitalClock
 
 		while(true)
 		{
-			System.out.print("\b\b\b\b\b\b\b\b\b\b\b\b");
-			System.out.print(hr+":"+min+":"+sec);
-			try{ Thread.sleep(1000); }
-			catch(Exception e){ break; }
+
+			System.out.printf("\r%02d:%02d:%02d", hr, min, sec);
+
+			try
+			{ 
+				
+				Thread.sleep(1000); 
+
+			}
+			catch(Exception e)
+			{ 
+
+				System.out.println("\nClock Interrupted."); 
+				break; 
+			}
 
 			System.out.print("\b\b\b\b\b\b\b\b\b\b\b\b");
 
 
 			sec++;
 
-			if(sec>59){ sec=0; min++; }
-			if(min>59){ min=0; hr++; }
-			if(hr>23){ hr=0; }
+			if(sec>59)
+			{ 
+
+				sec=0; 
+				min++; 
+
+			}
+
+			if(min>59)
+			{ 
+
+				min=0; 
+				hr++; 
+
+			}
+
+			if(hr>23)
+			{ 
+				
+				hr=0;
+ 
+			}
 
 			
 

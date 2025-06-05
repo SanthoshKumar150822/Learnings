@@ -1,0 +1,66 @@
+BIG DATA
+
+DEFINITION
+----------
+1.Bigdata is all about data, huge volume of data.
+2.10000+ Technologies(like hadoop and spark) is under bigdata.
+3.Bigdata derived from data.
+4.Data is a collection of information that can be stored and processed.
+5.Data can be anything like letters, numbers, symbols, images, audio, video, files.
+6.Data can be in anyform like raw, structured and unorganized.
+7.When machine tries to store and process data more than its capacity, problem occurs that is called 
+bigdata(problem data).
+8.Small/Large amount of data which becomes problem to store/process is called bigdata.
+9.Bigdata is not only for volume, we can use it to solve different probems in different usecases.
+10.We can use any technology to solve problem, its not mandatory to use only bigdata technologies to solve. 
+11.Bigdata has solution for all problems, it is an open source we can also propose a Technology(solution for a problem).
+12.Bigdata is for purely data processing, data analytics, data storage, data testing, data visualization.
+
+PROBLEMS IN DATA
+----------------
+Problems in data are infinity.
+1.Volume - large amount of data (Eg:- A movie file size is 4.001GB storing in 4GB pendrive, don't have
+ enough storage to store 1mb, that 1mb is bigdata because not able to store and process, If don't have 
+ space for 1kb or 10000000TB to store and process is also called bigdata.)
+ Companies process data in GB, TB, PB based on their projects/standards.
+ Small comany used data in GBs (Large volume of data for their company standards).
+ Medium comany used data in TBs (Large volume of data for their company standards). 
+ Large comany used data in PBs (Large volume of data for their company standards).
+
+2.Velocity - Speed in Transaction or transfering data (how fast the request is sent and getting back the response).
+I'm doing an online payment its taking too much of time nearly 1hr to finish, I can't wait for 1hr so the  
+delay Problem is not with the database or engine but with the transfering technology.
+
+3.Variety - Structured(comma separated and tab sepearted), Semi-Structured(xml, json), 
+UnStructured(audio, video, image) are varieties of data.
+
+4.Value - Quality of the data.
+
+
+DATA LAYERS
+-----------
+Bigdata has N data layers, each layers has n technologies/solution for problems.
+1.Data storage - 500+ databases in Bigdata (NoSQL).
+2.Data processing/analysis - 2000+ data processing/Analysis technolgies in Bigdata (Hadoop and Spark)
+3.Data analytics (DS/AI/ML)
+4.Data scheduling
+5.Data testing
+6.Data pipeline
+7.Data Visualization (Tableau, clickview, microstatergy).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

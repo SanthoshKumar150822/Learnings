@@ -49,6 +49,25 @@ Bigdata has N data layers, each layers has n technologies/solution for problems.
 7.Data Visualization (Tableau, clickview, microstatergy).
 
 
+HADOOP
+------
+1.Hadoop Derived from 2 base papers GFS(Google File System) and GMR(Google Map Reduce)
+2.Google released GFS in 2002 and GMR in 2004.
+3.GFS is to store data distributedly and GMR is to process the data distributedly.
+4.Apache Hadoop(GFS+GMR) was released in April 2006, created by Apache Software foundation based on a white 
+paper written by Google in 2003 that described the Google File System (GFS) and the MapReduce programming model. 
+5.Doug cutting is the father of Hadoop.
+6.Hadoop is an open-source software framework for storing and processing big data.
+7.Doug renamed GFS into Hadoop File System(HDFS) and GMR into MapReduce(MR).
+8.Doug donated hadoop to Apache software foundation as an open source.
+9.Hadoop is the first Hit project in Bigdata, used by many companies and funded to Doug.
+10.Doug started a company "Cloudera" with his partners, multi billion startup company only for Bigdata Technology and solutions.
+11.Apache/xyz won't give support for any open source projects, MNC use the product only when it has support. Individuals can use the project for POC(proof of concept) and understanding.
+Third party will start a company, studies about the project, make a support team and give support(Adding Additional features like GUI, testing component, infrastucture, installation setup) 
+for the product and releases as a new product, still the original developer has a co-ownership/partnership in that, because the new product is derived from old product.
+the old product(Eg:- Hadoop) is an open source Hadoop and the new product(Eg:- Baby Hadoop) is enterprise Hadoop, because third party giving product support to MNC. MNC will pay for the third party who offered the product support.
+
+
 
 
 

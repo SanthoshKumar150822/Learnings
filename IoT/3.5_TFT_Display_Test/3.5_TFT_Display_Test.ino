@@ -1,5 +1,5 @@
 //Display Check
-#include <MCUFRIEND_kbv.h>
+/*#include <MCUFRIEND_kbv.h>
 #include <Adafruit_GFX.h>
 
 MCUFRIEND_kbv tft;
@@ -20,5 +20,9 @@ void setup() {
 }
 
 void loop() {}
+*/
+
+
+
 
 

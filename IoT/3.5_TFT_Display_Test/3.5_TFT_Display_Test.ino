@@ -46,6 +46,33 @@ void setup() {
 void loop() {}
 */
 
+//Check display size
+/*
+#include <MCUFRIEND_kbv.h>
+#include <Adafruit_GFX.h>
+
+MCUFRIEND_kbv tft;
+
+void setup() {
+  Serial.begin(9600);
+  uint16_t ID = tft.readID();
+  if (ID == 0xD3D3) ID = 0x9486;  // common fallback
+  tft.begin(ID);
+  tft.setRotation(1);
+  tft.fillScreen(TFT_BLACK);
+
+  Serial.print("TFT ID = 0x"); Serial.println(ID, HEX);
+  Serial.print("Width: "); Serial.println(tft.width());
+  Serial.print("Height: "); Serial.println(tft.height());
+
+  tft.setTextColor(TFT_WHITE);
+  tft.setTextSize(3);
+  tft.setCursor(0, 0);
+  tft.print(String(tft.width()) + " x " + String(tft.height()));
+}
+
+void loop() {}
+*/
 
 
 

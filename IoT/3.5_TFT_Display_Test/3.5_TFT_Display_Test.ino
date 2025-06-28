@@ -22,6 +22,31 @@ void setup() {
 void loop() {}
 */
 
+//3.5 TFT LCD Shield's Builtin SD card holder check with SD card.
+/*
+#include <SPI.h>
+#include <SD.h>
+#define SD_CS 10
+
+void setup() {
+  Serial.begin(9600);
+  if (!SD.begin(SD_CS)) {
+    Serial.println("SD Card failed!");
+  } else {
+    Serial.println("SD Card OK.");
+    File root = SD.open("/");
+    while (true) {
+      File entry = root.openNextFile();
+      if (!entry) break;
+      Serial.println(entry.name());
+      entry.close();
+    }
+  }
+}
+void loop() {}
+*/
+
+
 
 
 
